@@ -1,6 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import data from "../mydata";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -22,9 +23,16 @@ const Header = () => {
           {data.headerTagline[2]}
           <br></br>
           <button className="basic-btn">
-            <a href="/assets/Hassan_Abduldayem_CV.pdf" download>
-              Download My Resume
-            </a>
+            <Link
+              className="link"
+              to="About"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Learn More
+            </Link>
           </button>
         </p>
       </Fade>

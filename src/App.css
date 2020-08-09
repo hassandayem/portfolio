@@ -54,6 +54,11 @@ nav li {
   display: inline-block;
   cursor: pointer;
 }
+
+.link {
+  cursor: pointer;
+}
+
 nav li .link {
   text-decoration: none;
   color: black;
@@ -142,7 +147,7 @@ li .link:hover {
 
 .project img {
   width: 30em;
-  height: 25em;
+  height: 22em;
 }
 .contact {
   position: relative;
@@ -223,6 +228,7 @@ li .link:hover {
   .basic-btn {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+    cursor: pointer;
   }
 
   .about {
